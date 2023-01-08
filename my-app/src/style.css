@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.body {
+  background-color: #eee;
+  padding: 0 16px;
+  margin: 0;
+}
+.header h1,
+h6 {
+
+  color: #fff;
+  font-family: "Mclaren", cursive;
+  font-weight: 200;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: rgb(134, 131, 131);
+}
+
+.header {
+  background-color: rgb(84, 84, 161);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0, rgba(0, 0, 0, 0.3);
+}
+.note {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 15px;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  justify-content: center;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: #fff;
+  color: rgb(84, 84, 161);
+  border: none;
+  resize: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+input,
+textarea {
+  border: #ccc;
+  text-align: center;
+  text-indent: bold;
+  font-size: 1.1em;
+  width: 100%;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form button {
+  position: relative;
+  color: rgb(84, 84, 161);
+  bottom: -25px;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+
+  background-color: rgb(84, 84, 161);
+  height: 26px;
+  right: -50%;
+  box-shadow: 0 2px 5px rgb(97, 111, 170);
+  cursor: pointer;
+  outline: none;
+}
+
+/* pimohotspot:enoch2007 */
+
+@media only screen and (max-width: 600px) {
+  .form {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 15px;
+    width: 80%;
+    margin: 30px auto 20px auto;
+    justify-content: center;
+  }
+}
